@@ -1,0 +1,10 @@
+<ul>
+    <ng-container *ngFor="let user of obieqti">
+        <li>{{user.brand}}-{{user.age}}(asaki)-{{user.price}}(pasi),</li>
+      <li *ngIf="user.price > 20000">
+        <span [ngClass]="user.favorit ? 'blod' : ''">
+            {{user.brand}}
+        </span>
+      </li>
+    </ng-container>
+  </ul>
