@@ -15,4 +15,5 @@ export class AppComponent {
     {brand: 'ჰონდა', age: 2008, price: 34000, favorit: true},
     {brand: 'ტოიოტა', age: 2021, price: 20000, favorit: false}
   ]
+
 }
